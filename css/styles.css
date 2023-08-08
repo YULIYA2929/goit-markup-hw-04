@@ -1,0 +1,536 @@
+:root {
+  
+  --main-cl: #4d5ae5;
+	---ocean-cl: #404bbf;
+	--navy-blue-cl: #2e2f42;
+	--green-cl: #31d0aa;
+	--slate-cl: #434455;
+	--light-slate-cl: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud-cl: #f4f4fd;
+	--navy-blue-modal-cl: #2e2f42;
+	--grey-cl: #2e2f42;
+	--white-cl: #ffffff;
+	--dairy-cl: #fcfcfc;
+}
+
+
+
+.container {
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+
+}
+
+.style {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+display: flex;
+align-items: centers;
+}
+
+.container-nav-list {
+display: flex;
+align-items: center;
+}
+
+.header {
+border-bottom: 1px solid #e7e9fc;
+
+}
+
+.hero-wrap {
+  background-color: #2e2f42; 
+  border-radius: 30px; 
+  padding: 380px 40px 40px 40px;
+
+
+}
+
+.hero {
+  background-color: var(--navy-blue-cl) ;
+}
+
+.servise {
+font-family: inherit;
+background-color: var(--main-cl);
+font-size: 16px;
+color: var(--white-cl);
+font-weight: 500;
+ line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
+display: block;
+margin: 0 auto;
+
+}
+
+.servise:hover {
+  background-color: #404BBF;
+  
+}
+
+.servise:focus {
+  background-color: #404BBF;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif; 
+  color: var(--slate-cl); 
+  background-color: #FFFFFF;
+}
+
+
+button {
+  font-family:"Roboto", sans-serif;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.list {
+list-style: none;
+}
+.link {
+text-decoration: none;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, ol {
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.header-logo-item {
+  color: var(---ocean-cl);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.header-logo-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+ color: var(--main-cl);
+ margin-right: 76px;
+ display: inline-block;
+}
+
+.advantages { 
+padding: 120px 0;
+}
+ 
+.section-web {
+display: flex;
+gap: 24px;
+}
+
+.menu-studio-web {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-studio-link {
+padding: 24px 0;
+
+}
+
+.contact-adress-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-logo-web:hover {
+  color: var(--main-cl);
+  background-color: #2e2f42;
+}
+
+
+.studio-web {
+  color: var(--grey-cl);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+
+}
+
+
+.studio-web:hover {
+  color: var(---ocean-cl); 
+}
+.studio-web:focus {
+  color: var(---ocean-cl);
+}
+
+.contact-adress-list {
+  font-style: normal;
+  margin-left: auto;
+  
+}
+
+
+.contact-adress-tel {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-adress-malto {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-adress-malto:hover {
+  color: var(---ocean-cl);
+}
+
+ 
+.contact-adress-malto:focus {
+  color: var(---ocean-cl);
+
+}
+
+.contact-adress-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-cl);
+  text-decoration: none;
+
+}
+
+.contact-adress-mail:hover {
+  color: var(---ocean-cl);
+}
+
+.contact-adress-mail:focus {
+  color: var(---ocean-cl);
+}
+
+
+
+
+.hero-solution {
+  font-family: "Roboto";
+  color: var(--white-cl);
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 484px;
+  margin-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto;
+}
+
+
+
+
+   
+  .strategy-text-web {
+    color: var(--navy-blue-cl);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+
+
+
+   .strategy-hidden-text {
+   color: var(--slate-cl); 
+   font-size: 16px;
+   letter-spacing: 0.02em;
+   line-height: 1.5;
+  
+   }
+
+  
+
+  .what-doing-item {
+    color: var(--navy-blue-modal-cl);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+.team-strategy-item {
+  color: var(--navy-blue-cl);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
+.team-strategy-web {
+  color: var(--navy-blue-cl);
+  font-size: 36px;
+  line-height:1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  
+}
+
+
+.section-link {
+display: flex;
+gap: 24px;
+
+
+}
+
+.section-img {
+  width: calc((100% - 48px) / 3);
+
+}
+
+.advantages-list {
+width: calc((100% - 72px) / 4);
+}
+
+  .footer-item {
+  color: var(--cloud-cl);
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    max-width: 264px;
+  }
+  .header-logo-studio {
+color: var(--cloud-cl) ;
+text-transform: uppercase;
+letter-spacing: 0.03em;
+display: inline-block;
+  }
+  .header-logo-studio:hover {
+    color: var(--main-cl);
+  }
+  .header-logo-hero {
+    font-family: "Raleway", sans-serif;
+    color: var(--main-cl);
+    font-weight: 800;
+    font-size: 18px; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;  
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-block;
+
+
+    }
+  .header-logo-content {
+     color: var(--navy-blue-cl);
+  
+  }
+
+
+.header-studio-content {
+font-family: "Raleway", sans-serif;
+color: var(--main-cl);
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-right: 76px;
+}
+
+  .header-studio-content:hover {
+    color: var(---ocean-cl); 
+
+  }
+
+  .all-buton-class {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5 ;
+    letter-spacing: 0.04em;
+    color:var(--main-cl);
+    background-color: #F4F4FD;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    
+  }
+  
+.all-buton-class:hover {
+  color: var(--white-cl);
+  background-color: #404BBF;
+  border: 1px solid transparent;
+}
+.all-buton-class:focus {
+  color: var(--white-cl);
+  background-color: #404BBF;
+  border: 1px solid transparent;
+}
+
+
+ 
+
+  .banking-app-interface {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--grey-cl) ;
+    margin-bottom: 8px;
+
+
+}
+
+  .app-text-interfase {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-cl);
+    text-decoration: none;
+  }
+
+ .our-team-section {
+  background-color: #FFFFFF;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+
+ }
+
+ .container-class {
+padding: 32px 0;
+
+
+ }
+
+ .team-strategy-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-modal-cl);
+  margin-bottom: 8px;
+  text-align: center;
+ 
+ }
+
+ 
+
+ .section-class {
+  background-color: #F4F4FD;
+  padding: 120px 0;
+ }
+
+ .team-strategy-our {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color:  var(--navy-blue-modal-cl);
+  margin-bottom: 72px;
+ }
+
+ .strategy-hidden-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-cl);
+  text-align: center;
+ }
+
+
+ .images {
+  display: block;
+ }
+
+
+ .hero-list-style  {
+  padding: 188px 0;
+  background-color: darkblue;
+  margin: 0 auto;
+ }
+
+ .section-strategy {
+  padding-bottom: 120px;
+ }
+ 
+ .hero {
+  padding: 100px 0;
+
+ }
+
+ .portfolio-section-link {
+  padding-top: 96px;
+  padding-bottom: 120px;
+ }
+
+ .portfolio-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+  
+ }
+
+ .portfolio-container-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+
+}
+.portfolio-container-class{
+  width: calc((100% - 48px) / 3)
+}
+
+.container-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+  
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
