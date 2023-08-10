@@ -530,3 +530,49 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.media-social {
+  font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: var(--white-cl);
+ margin-bottom: 16px;
+
+}
+
+.container-div {
+  display: flex;
+  align-items: baseline;
+}
+
+.container-social {
+  margin-right: 120px;
+
+}
+
+.social-madia-web {
+display: flex;
+gap: 16px;
+
+}
+
+.media-web {
+  width: 40px;
+  height: 40px;
+
+}
+
+.media-web-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.media-web-content :focus {
+  background-color: var(--green-cl);
+}
+.media-web-content :hover {
+  background-color: var(--green-cl);
+}
