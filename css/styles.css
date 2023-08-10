@@ -576,3 +576,7 @@ gap: 16px;
 .media-web-content :hover {
   background-color: var(--green-cl);
 }
+
+.social-icon {
+  fill: var(--cloud-cl);
+}
