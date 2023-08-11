@@ -136,6 +136,8 @@ margin-bottom: 0;
  color: var(--main-cl);
  margin-right: 76px;
  display: inline-block;
+ position: relative;
+ color: var(---ocean-cl);
 }
 
 .advantages { 
