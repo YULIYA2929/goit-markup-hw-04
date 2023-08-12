@@ -655,3 +655,52 @@ gap: 16px;
 .social-icon {
   fill: var(--cloud-cl);
 }
+
+.section-class-customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+
+.customers-class-link {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--grey-cl);
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-link {
+  width: calc(calc((100% - 120px) / 6));
+  height: 88px;
+
+}
+
+.customers-class {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-slate-cl);
+}
+
+.customers-class:hover {
+  border-color: var(---ocean-cl);
+  color: var(---ocean-cl);
+}
+
+.customers-class:focus {
+  border-color: var(---ocean-cl);
+  color: var(---ocean-cl);
+}
+
+.social-icon-customers {
+  fill: currentColor;
+}
