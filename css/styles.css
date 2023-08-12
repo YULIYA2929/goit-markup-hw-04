@@ -578,6 +578,10 @@ display: flex;
 align-items: center;
 }
 
+.container-logo-portfolio {
+  margin-right: 120px;
+  
+}
 .container-hero {
 margin-right: 120px;
 }
