@@ -665,8 +665,9 @@ gap: 16px;
 .customers-class-link {
   font-size: 36px;
   line-height: 1.11;
-  color: var(--grey-cl);
   margin-bottom: 72px;
+  color: var(--grey-cl);
+  
 }
 
 .customers-list {
