@@ -604,11 +604,10 @@ gap: 16px;
   
 }
 
-.media-web-content 
-:focus {
+.media-web-content:focus {
   background-color: var(--green-cl);
 }
-.media-web-content :hover {
+.media-web-content:hover {
   background-color: var(--green-cl);
 }
 
