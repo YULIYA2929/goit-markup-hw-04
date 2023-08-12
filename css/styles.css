@@ -573,14 +573,11 @@ img {
 
 }
 
-.icon { 
-display: flex;
-align-items: center;
-}
+
 
 .container-logo-portfolio {
   margin-right: 120px;
-  
+
 }
 .container-hero {
 margin-right: 120px;
@@ -607,10 +604,11 @@ gap: 16px;
   
 }
 
-.media-web-content :focus.social-icon {
+.media-web-content 
+:focus {
   background-color: var(--green-cl);
 }
-.media-web-content :hover.social-icon {
+.media-web-content :hover {
   background-color: var(--green-cl);
 }
 
