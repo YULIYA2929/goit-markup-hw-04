@@ -507,6 +507,8 @@ padding: 32px 0;
  
  .hero {
   padding: 100px 0;
+  
+
 
  }
 
@@ -564,7 +566,7 @@ img {
 }
 
 .container-div {
-  display: flex;
+display: flex;
   align-items: baseline;
 }
 
