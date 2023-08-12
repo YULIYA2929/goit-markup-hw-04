@@ -16,14 +16,7 @@
 
 
 
-.container {
-width: 1158px;
-padding-left: 15px;
-padding-right: 15px;
-margin: 0 auto;
 
-
-}
 
 .style {
   display: flex;
@@ -568,7 +561,18 @@ img {
 .container-div {
 display: flex;
   align-items: baseline;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  }
 
 .container-social {
   margin-right: 120px;
