@@ -570,6 +570,7 @@ img {
 
 .container-social {
   margin-right: 120px;
+  
 
 }
 
@@ -586,11 +587,11 @@ margin-right: 120px;
 display: flex;
 gap: 16px;
 
+
 }
 
 .media-web {
-  width: 40px;
-  height: 40px;
+ 
 
 }
 
