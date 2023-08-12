@@ -332,8 +332,7 @@ height: 112px;
 background-color: var(--cloud-cl);
 border-radius: 4px;
 margin-bottom: 8px;
-width: 64;
-height: 64;
+
 
 }
 
@@ -572,6 +571,11 @@ img {
 .container-social {
   margin-right: 120px;
 
+}
+
+.icon { 
+display: flex;
+align-items: center;
 }
 
 .container-hero {
