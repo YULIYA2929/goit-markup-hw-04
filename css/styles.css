@@ -323,6 +323,11 @@ gap: 24px;
 width: calc((100% - 72px) / 4);
 }
 
+
+.advantages-item-top {
+
+}
+
   .footer-item {
   color: var(--cloud-cl);
     font-size: 16px;
