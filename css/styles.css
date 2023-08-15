@@ -141,7 +141,7 @@ margin-bottom: 0;
   height: 4px;
   background-color: var(---ocean-cl);
   border-radius: 2px;
-  
+
 }
 
 .advantages { 
@@ -184,6 +184,11 @@ display: block;
     padding: 24px 0;
     display: block;
 
+
+}
+
+.studio-web ::after {
+content: '';
 }
 
 
