@@ -121,6 +121,7 @@ margin-bottom: 0;
 
 .header-logo-text {
   font-family: "Raleway", sans-serif;
+  color: var(---ocean-cl)
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -128,21 +129,11 @@ margin-bottom: 0;
   text-transform: uppercase;
  margin-right: 76px;
  display: inline-block;
- position: relative;
- color: var(---ocean-cl)
+ 
  
 }
 
-.header-logo-text ::after {
-  content: '' ;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: var(---ocean-cl);
-  border-radius: 2px;
 
-}
 
 .advantages { 
 padding: 120px 0;
@@ -184,6 +175,7 @@ display: block;
     padding: 24px 0;
     display: block;
     position: relative;
+    color: var(---ocean-cl);
 
 
 }
