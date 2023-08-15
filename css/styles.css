@@ -182,7 +182,7 @@ display: block;
 }
 
 .studio-web ::after {
-content: '';
+content:'';
 position: absolutes;
 left: 0;
 bottom: -1px;
