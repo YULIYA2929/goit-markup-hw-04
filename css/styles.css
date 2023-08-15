@@ -181,7 +181,7 @@ display: block;
 
 }
 
-.studio-web ::after {
+.studio-web::after {
 content:'';
 position: absolutes;
 left: 0;
