@@ -449,6 +449,7 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     color: var(--slate-cl);
     text-decoration: none;
+    transform: translateY(0%);
   }
 
  .our-team-section {
