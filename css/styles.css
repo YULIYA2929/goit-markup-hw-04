@@ -126,12 +126,22 @@ margin-bottom: 0;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
- color: var(--main-cl);
  margin-right: 76px;
  display: inline-block;
  position: relative;
  color: var(---ocean-cl)
  
+}
+
+.header-logo-text ::after {
+  content: '' ;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(---ocean-cl);
+  border-radius: 2px;
+  
 }
 
 .advantages { 
