@@ -218,7 +218,9 @@ border-radius: 2px;
 .contact-adress-malto {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate-cl);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .contact-adress-malto:hover {
