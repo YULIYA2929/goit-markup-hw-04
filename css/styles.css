@@ -769,6 +769,7 @@ gap: 16px;
 
 .customers-class:hover {
   border-color: var(---ocean-cl);
+  background-color: var(---ocean-cls);
   color: var(---ocean-cl);
 }
 
